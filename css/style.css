@@ -1,4 +1,65 @@
+*, *:before,* :after {
+ box-sizing: border-box;
+}
+
 body {
-  background-color: #dadada;
-  font-size: 10px;
+  background-color: #c3c3c3;
+}
+.container {
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  padding-top: 12px;
+  font-size: 75%;
+}
+
+.preview {
+  display: inline-block;
+  width: 80%;
+  height: 200px;
+  padding-top: 2%;
+  margin: 2%;
+}
+
+@media screen and (min-width: 575px) {
+  .preview {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .preview {
+    width: 20%;
+  }
+}
+
+.baku {
+  background-image: url(/images/baku.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.london {
+  background-image: url(/images/london.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.madrid {
+  background-image: url(/images/madrid.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.rome {
+  background-image: url(/images/rome.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
